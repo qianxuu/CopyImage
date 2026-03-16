@@ -22,6 +22,7 @@ class ShareReceiverActivity : Activity() {
 
     val receivedUri: Uri? =
       IntentCompat.getParcelableExtra(intent, Intent.EXTRA_STREAM, Uri::class.java)
+        ?: intent.data
 
     if (receivedUri == null) {
       showToast(this, R.string.toast_need_image)
