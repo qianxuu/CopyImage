@@ -158,6 +158,8 @@ class MainActivity : ComponentActivity() {
               if (writeImageUriToClipboard(context, latestImageUri!!)) {
                 showToast(context, R.string.toast_image_copied_success)
                 showImageDialog = false
+              } else {
+                showToast(context, R.string.toast_image_copy_failed)
               }
             },
           )
@@ -253,8 +255,12 @@ class MainActivity : ComponentActivity() {
                 .padding(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 0.dp),
           )
           Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-            TextButton(onClick = { onDismissRequest() }) { Text(text = "取消") }
-            TextButton(onClick = { onConfirmation() }) { Text(text = "复制") }
+            TextButton(onClick = { onDismissRequest() }) {
+              Text(text = stringResource(R.string.button_cancel))
+            }
+            TextButton(onClick = { onConfirmation() }) {
+              Text(text = stringResource(R.string.button_confirm))
+            }
           }
         }
       }

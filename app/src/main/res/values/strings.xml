@@ -19,7 +19,7 @@
     <string name="button_grant_read_image_permission">Grant permission to read images</string>
     <string name="button_add_quick_settings_tile">Add Quick Settings Tile</string>
     <string name="button_test_read_image">Test image access</string>
-    <string name="button_confirm">Confirm</string>
+    <string name="button_confirm">Copy</string>
     <string name="button_cancel">Cancel</string>
 
     <string name="tile_copied">Copied</string>

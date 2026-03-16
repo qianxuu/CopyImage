@@ -20,8 +20,14 @@ class ShareReceiverActivity : Activity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
 
-    val receivedUri: Uri =
-      IntentCompat.getParcelableExtra(intent, Intent.EXTRA_STREAM, Uri::class.java) as Uri
+    val receivedUri: Uri? =
+      IntentCompat.getParcelableExtra(intent, Intent.EXTRA_STREAM, Uri::class.java)
+
+    if (receivedUri == null) {
+      showToast(this, R.string.toast_need_image)
+      finish()
+      return
+    }
 
     Log.d(TAG, "收到分享: $receivedUri")
 
@@ -37,8 +43,11 @@ class ShareReceiverActivity : Activity() {
 
       Log.d(TAG, "缓存文件: $cacheFileUri")
 
-      writeImageUriToClipboard(this, cacheFileUri)
-      showToast(this, R.string.toast_image_copied_success)
+      if (writeImageUriToClipboard(this, cacheFileUri)) {
+        showToast(this, R.string.toast_image_copied_success)
+      } else {
+        showToast(this, R.string.toast_image_copy_failed)
+      }
     } catch (e: Exception) {
       Log.e(TAG, e.message, e)
       showToast(this, R.string.toast_image_read_failed)

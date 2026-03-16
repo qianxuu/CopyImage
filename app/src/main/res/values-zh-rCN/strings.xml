@@ -17,7 +17,7 @@
     <string name="button_grant_read_image_permission">授权读取图片权限</string>
     <string name="button_add_quick_settings_tile">添加快速设置磁贴</string>
     <string name="button_test_read_image">测试读取图片</string>
-    <string name="button_confirm">确定</string>
+    <string name="button_confirm">复制</string>
     <string name="button_cancel">取消</string>
 
     <string name="tile_copied">已复制</string>
