@@ -7,7 +7,7 @@
     <string name="file_provider_authority" translatable="false">com.qianxu.copyimage.fileprovider</string>
 
     <string name="toast_image_read_failed">Failed to read image</string>
-    <string name="toast_need_image">Please share an image with this app</string>
+    <string name="toast_need_image">Please share an image to this app</string>
     <string name="toast_image_copied_success">Image copied successfully</string>
     <string name="toast_image_copy_failed">Failed to copy image</string>
     <string name="toast_permission_granted">Permission granted</string>
@@ -16,17 +16,17 @@
     <string name="toast_tile_add_failed">Failed to add tile</string>
     <string name="toast_tile_already_exists">Tile already exists</string>
 
-    <string name="button_grant_read_image_permission">Grant Read Image Permission</string>
+    <string name="button_grant_read_image_permission">Grant permission to read images</string>
     <string name="button_add_quick_settings_tile">Add Quick Settings Tile</string>
-    <string name="button_test_read_image">Test Read Image</string>
+    <string name="button_test_read_image">Test image access</string>
     <string name="button_confirm">Confirm</string>
     <string name="button_cancel">Cancel</string>
 
     <string name="tile_copied">Copied</string>
     <string name="tile_failed">Failed</string>
 
-    <string name="main_usage_title">Usage:</string>
-    <string name="main_usage_item1">Share an image from another app and select this app to write it to the clipboard.</string>
-    <string name="main_usage_item2">Take a screenshot or save an image to your album from another app, then click the Quick Settings tile to write it to the clipboard. Note: This method requires permission to read all images. The button above can be used to quickly grant and test this permission.</string>
+    <string name="main_usage_title">How to use:</string>
+    <string name="main_usage_item1">Share an image and select this app to copy it to the clipboard.</string>
+    <string name="main_usage_item2">Take a screenshot or save an image to your album, then tap the Quick Settings tile to copy it to the clipboard. Note: This method requires permission to read all images. Use the button above to grant and test this permission quickly.</string>
     <string name="main_permission_hint">On some devices (e.g., Xiaomi), the permission to write to the clipboard needs to be set to "Always allow".</string>
 </resources>

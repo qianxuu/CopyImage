@@ -5,26 +5,26 @@
     <string name="tile_name">复制最新图片</string>
 
     <string name="toast_image_read_failed">图片读取失败</string>
-    <string name="toast_need_image">请分享图片到本应用</string>
+    <string name="toast_need_image">请将图片分享至本应用</string>
     <string name="toast_image_copied_success">图片复制成功</string>
     <string name="toast_image_copy_failed">图片复制失败</string>
-    <string name="toast_permission_granted">权限已授予</string>
+    <string name="toast_permission_granted">已授权</string>
     <string name="toast_permission_denied">权限已被拒绝</string>
-    <string name="toast_tile_added_success">磁贴成功添加</string>
+    <string name="toast_tile_added_success">已添加磁贴</string>
     <string name="toast_tile_add_failed">磁贴添加失败</string>
     <string name="toast_tile_already_exists">磁贴已存在</string>
 
-    <string name="button_grant_read_image_permission">授予读取图片权限</string>
-    <string name="button_add_quick_settings_tile">添加快捷设置磁贴</string>
+    <string name="button_grant_read_image_permission">授权读取图片权限</string>
+    <string name="button_add_quick_settings_tile">添加快速设置磁贴</string>
     <string name="button_test_read_image">测试读取图片</string>
-    <string name="button_confirm">确认</string>
+    <string name="button_confirm">确定</string>
     <string name="button_cancel">取消</string>
 
     <string name="tile_copied">已复制</string>
     <string name="tile_failed">复制失败</string>
 
     <string name="main_usage_title">使用方式：</string>
-    <string name="main_usage_item1">从其他应用中分享图片，选择本应用即可写入剪贴板。</string>
-    <string name="main_usage_item2">截屏或在其他应用中保存图片到相册，单击快速设置磁贴即可写入剪贴板。注：该方式需要授予读取所有图片权限，上方按钮可快速授权和测试</string>
-    <string name="main_permission_hint">在某些设备上（如小米），需要将写入剪贴板权限设为始终允许。</string>
+    <string name="main_usage_item1">从其他应用分享图片，选择本应用即可写入剪贴板。</string>
+    <string name="main_usage_item2">截屏或在其他应用将图片保存到相册后，点击快速设置磁贴即可写入剪贴板。注：此方式需要授权读取所有图片的权限，上方按钮可快速授权和测试。</string>
+    <string name="main_permission_hint">在某些设备上（如小米），需要将写入剪贴板的权限设为始终允许。</string>
 </resources>
