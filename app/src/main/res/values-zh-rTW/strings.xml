@@ -10,12 +10,12 @@
     <string name="toast_image_copy_failed">相片複製失敗</string>
     <string name="toast_permission_granted">已授權</string>
     <string name="toast_permission_denied">權限已被拒絕</string>
-    <string name="toast_tile_added_success">已新增磁貼</string>
-    <string name="toast_tile_add_failed">新增磁貼失敗</string>
-    <string name="toast_tile_already_exists">磁貼已存在</string>
+    <string name="toast_tile_added_success">已新增設定方塊</string>
+    <string name="toast_tile_add_failed">新增設定方塊失敗</string>
+    <string name="toast_tile_already_exists">設定方塊已存在</string>
 
     <string name="button_grant_read_image_permission">授權讀取相片權限</string>
-    <string name="button_add_quick_settings_tile">新增快速設定磁貼</string>
+    <string name="button_add_quick_settings_tile">新增快速設定方塊</string>
     <string name="button_test_read_image">測試讀取相片</string>
     <string name="button_confirm">複製</string>
     <string name="button_cancel">取消</string>

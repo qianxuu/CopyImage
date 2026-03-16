@@ -12,12 +12,12 @@
     <string name="toast_image_copy_failed">Failed to copy image</string>
     <string name="toast_permission_granted">Permission granted</string>
     <string name="toast_permission_denied">Permission denied</string>
-    <string name="toast_tile_added_success">Tile added successfully</string>
-    <string name="toast_tile_add_failed">Failed to add tile</string>
-    <string name="toast_tile_already_exists">Tile already exists</string>
+    <string name="toast_tile_added_success">Quick Settings tile added</string>
+    <string name="toast_tile_add_failed">Failed to add Quick Settings tile</string>
+    <string name="toast_tile_already_exists">Quick Settings tile already exists</string>
 
     <string name="button_grant_read_image_permission">Grant permission to read images</string>
-    <string name="button_add_quick_settings_tile">Add Quick Settings Tile</string>
+    <string name="button_add_quick_settings_tile">Add Quick Settings tile</string>
     <string name="button_test_read_image">Test image access</string>
     <string name="button_confirm">Copy</string>
     <string name="button_cancel">Cancel</string>
